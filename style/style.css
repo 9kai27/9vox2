@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #fff;	/*全体の文字色*/
+	font-family: Meiryo, Osaka, sans-serif;/*フォント種類*/
+	font-size: 14px;	/*文字サイズ*/
+	line-height: 2;		/*行間*/
+	background: #000 url(../images/bg.jpg) no-repeat center center fixed;		/*背景指定（古いブラウザ用）*/
+}
+
+.profile{
+    position: relative;
+    margin: 10px auto;
+}
+
+.production{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
